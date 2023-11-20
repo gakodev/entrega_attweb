@@ -1,0 +1,153 @@
+* {
+
+    margin-top: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#footer {
+    
+    background-color:#F86106;
+    position: flex;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#contato {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    text-align: center;
+
+
+}
+
+#header {
+
+    background-color:#F86106;
+    position: flex;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header img {
+
+    position: relative;
+    height: 100%;
+}
+
+nav {
+
+    margin-right: 0%;
+    font-size: x-small;
+    width: 70vw;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li {
+
+    padding: 15px 20px; 
+    display: inline-flex;
+}
+
+li {
+
+    float: left;
+    align-content: center;
+    list-style: none;
+}
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    
+}
+
+li a:hover:not(.active){
+
+    background-color: #975f2a; 
+    overflow: hidden;
+    border-radius: 3vh;
+}
+
+body {
+
+    background-color:rgb(218, 72, 19);
+}
+
+#mainDiv {
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:rgb(218, 72, 19);
+    height: 100%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    
+}
+
+#un1 {
+    background-color: lightgray;
+    border: solid;
+    border-radius: 1vh;
+    border-style: outset;
+    height: max-content;
+    width: 506px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#un1 img {
+
+    height: 250px;
+    width: 500px;        
+}
+
+#un1_text {
+  
+    border: solid;
+    border-style: inset;
+}
+
+
+#un2 {
+    background-color: lightgray;
+    border: solid;
+    border-radius: 1vh;
+    border-style: outset;
+    height: max-content;
+    width: 506px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#un2 img {
+
+    height: 250px;
+    width: 500px;
+}
+
+#un2_text {
+    border: solid;
+    border-style: inset;
+}

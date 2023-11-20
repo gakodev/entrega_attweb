@@ -1,0 +1,212 @@
+* {
+
+    margin-top: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+#header {
+
+    background-color:#F86106;
+    position: flex;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header img {
+
+    position: relative;
+    height: 100%;
+}
+
+nav {
+
+    margin-right: 0%;
+    font-size: x-small;
+    width: 70vw;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li {
+
+    padding: 15px 20px; 
+    display: inline-flex;
+}
+
+li {
+
+    float: left;
+    align-content: center;
+    list-style: none;
+}
+
+li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    
+}
+
+li a:hover:not(.active){
+
+    background-color: #975f2a; 
+    overflow: hidden;
+    border-radius: 3vh;
+}
+
+/* CONTEUDO DA PAGINA */
+
+
+body {
+
+    background-color: #d1d8ae;   
+}
+
+#introducao {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgba(218, 72, 19, 0.753);
+    
+}
+
+#introducao img {    
+
+    width: 60vw;
+    overflow: hidden;
+    border-radius: 3vh;
+}
+
+#cards {
+
+    margin-top: 20px;
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#sobre {
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: inherit;
+    height: 250px;
+    width: 500px;
+    background-color: bisque;
+    border: solid;
+}
+
+#card_sobre {
+
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding: 0%;
+    height: 250px;
+    width: 320px;
+}
+
+
+#card_sobre_text {
+    
+    background-color:#f863067c;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2vh;
+    height: 150px;
+    width: 320px;
+    font-size: small;
+    justify-content: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#unidade {
+
+    background-color: #f863067c;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2vh;
+    height: 150px;
+    width: 320px;
+    font-size: small;
+    justify-content: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#card_unidade {
+    
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding: 0%;
+    height: 250px;
+    width: 320px;
+    
+}
+
+#card_3 {
+    font-size: small;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 10px;
+    padding: 0%;
+    height: 250px;
+    width: 320px;
+
+}
+
+#tercard {
+
+    background-color: #f863067c;
+    border: solid;
+    border-width: 1px;
+    border-radius: 2vh;
+    height: 150px;
+    width: 320px;
+    font-size: small;
+    justify-content: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#footer {
+    
+    background-color:#F86106;
+    position: flex;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#contato {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    text-align: center;
+
+
+}
