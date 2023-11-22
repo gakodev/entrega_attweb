@@ -83,7 +83,8 @@ body {
     justify-content: center;
     text-align: center;
     background-color: rgba(218, 72, 19, 0.753);
-   
+    padding-top: 5px;
+    height: 400px;
 
 }
 
@@ -96,36 +97,58 @@ body {
 
 .carousel {
     width: 70%;
-    height: 350px;
+    height: 355px;
     position: relative;
-  }
+}
 
-  .slides {
+.slides {
     width: 100%;
     height: 100%;
     position: relative;
-  }
+}
   
-  .slide {
+.slide {
     width: 100%;
     height: 100%;
     position: relative;
     display: none;
-    
-  }
+}
   
-  .slide img {
+.slide img {
+    position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@keyframes slideshow {
+    0% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .carousel:hover .slide{
+    animation: slideshow 2s infinite;
   }
   
-  #slide1:checked ~ .slides .slide:nth-child(1),
-  #slide2:checked ~ .slides .slide:nth-child(2),
-  #slide3:checked ~ .slides .slide:nth-child(3) {
+#slide1:checked ~ .slides .slide:nth-child(1),
+#slide2:checked ~ .slides .slide:nth-child(2),
+#slide3:checked ~ .slides .slide:nth-child(3) {
     display: block;
-  }
-  
+}
+
 #cards {
 
     margin-top: 20px;
