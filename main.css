@@ -121,7 +121,7 @@ body {
     object-fit: cover;
 }
 
-@keyframes slideshow {
+@keyframes transicao {
     0% {
       opacity: 0;
     }
@@ -135,17 +135,14 @@ body {
       opacity: 1;
     }
     100% {
-      opacity: 0;
+      opacity: 1;
     }
-  }
-
-  .carousel:hover .slide{
-    animation: slideshow 2s infinite;
   }
   
 #slide1:checked ~ .slides .slide:nth-child(1),
 #slide2:checked ~ .slides .slide:nth-child(2),
 #slide3:checked ~ .slides .slide:nth-child(3) {
+    animation: transicao 6s 1;
     display: block;
 }
 
@@ -182,7 +179,7 @@ body {
 
 #card_sobre_text {
     
-    background-color:#f863067c;
+    background-color:#4b413a;
     border: solid;
     border-width: 1px;
     border-radius: 2vh;
@@ -197,7 +194,7 @@ body {
 
 #unidade {
 
-    background-color: #f863067c;
+    background-color: rgb(206, 132, 20);
     border: solid;
     border-width: 1px;
     border-radius: 2vh;
@@ -234,7 +231,7 @@ body {
 
 #tercard {
 
-    background-color: #f863067c;
+    background-color: #215763;
     border: solid;
     border-width: 1px;
     border-radius: 2vh;
