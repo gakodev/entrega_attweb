@@ -5,8 +5,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href=reservasCss.css'>
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='reservasCss.css'>
+    
 </head>
 <body>
 
@@ -15,15 +15,54 @@
         <nav id="navList">
                 <div id="list">
                 <ul>
-                    <li><a href="#" id="Home">Home</a></li>
-                    <li><a href="#" id="Cardapio">Cardápio</a></li>
-                    <li><a href="#" id="Unidades">Unidades</a></li>
-                    <li><a href="#" id="Reservas">Reservas</a></li>
+                    <li><a href="../at.html" id="Home">Home</a></li>
+                    <li><a href="cardapio.html" id="Cardapio">Cardápio</a></li>
+                    <li><a href="unidades.html" id="Unidades">Unidades</a></li>
+                    <li><a href="reservas.html" id="Reservas">Reservas</a></li>
                     
                 </ul>
             </div>
         </nav>
     </header>
+
+    <div id="mainDiv">
+        <h2>Venha fazer sua reserva!</h2>
+        <div id="card_reservas">
+            <table id="mainTable" class="table">
+                <tbody>
+                    <tr>
+                        <td>Nome:</td>
+                        <td><input id="nomeInput" type="text" name="nome"></td>
+                    </tr>
+                    <tr>
+                        <td>Telefone:</td>
+                        <td><input id="telefoneInput" type="text" name="telefone" maxlength="14"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td><input id="emailInput" type="text" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>CPF:</td>
+                        <td><input id="cpfInput" type="text" name="cep" maxlength="14"></td>                        
+                    </tr>
+                    <tr>
+                        <td>Número de pessoas:
+                            <td><input id="nInput" type="text" name="ndepessoas" maxlength="2"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Data da reserva:</td>
+                        <td><input id="dataInput" type="text" name="data"></td>
+                    </tr>
+                    
+                </tbody>            
+            </table>
+            
+        </div>
+        
+    </div>
+    <button id="button1">Reservar</button>
 
     <footer id="footer">
         <div id = "contato">
@@ -35,4 +74,5 @@
     
     
 </body>
+    <script src='main.js'></script>
 </html>

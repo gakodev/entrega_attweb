@@ -92,3 +92,24 @@ body {
 
 
 }
+
+#mainDiv {
+    
+    padding-top: 50px;
+    height: 600px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+#card_reservas {
+
+    padding-top: 10px;
+    background-color: lightgray;
+    border: solid gray;
+    border-radius: 3vh;
+    justify-content: center;
+    display: inline-flex;
+    width: 500px;
+    height: 470px;
+}
