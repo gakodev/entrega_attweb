@@ -25,13 +25,18 @@
         </nav>
     </header>
 
+    <h2 id="titulo">Venha fazer sua reserva!</h2>
+
+        <div id="subtitulo">
+    <div id="div_img">
+        <img id="img1" src="../imgs/reserva_alt.png" alt="">
+    </div>
+        </div>
 
     <div id="mainDiv">
-        <h2>Venha fazer sua reserva!</h2>
+        
         <div id="card_reservas">
-            <div id="div_img">
-            <img src="../imgs/reserva_alt.png" alt="">
-        </div>
+            
             <table id="mainTable" class="table">
 
                 <tbody>
@@ -81,4 +86,14 @@
     
 </body>
     <script src='main.js'></script>
+
+    <script src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js'></script>
+    <script>
+    $(document).ready(function(){
+        $('#button1').on('click',function(){
+            alert('vvxcv')
+            $('#img1').attr("src", "../imgs/reserva_verde.png")
+        });
+    });
+    </script>
 </html>
