@@ -113,6 +113,7 @@ body {
 #mainDiv {
     text-align: center;
     justify-content: center;
+    
 }
 
 #mainDiv img {
@@ -132,18 +133,20 @@ body {
     justify-content: center;
     bottom: -10px;
     z-index: 1;
-    transform: translate(0,30px) ;
+    transform: translate(0,40px) ;
     
 }
 
 #card_reservas {
     display: flex;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 
 .table {
-    padding: 20px;
+    padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
@@ -181,7 +184,7 @@ tr {
 
 #nomeInput, #telefoneInput, #emailInput, #cpfInput, #nInput, #dataInput {
 
-    border-radius: 2vh;
+    border-radius: 1vh;
 }
 
 td {
@@ -189,3 +192,11 @@ td {
     margin: 10px;
 }
 
+#button1 {
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 2vh;
+    height: 30px;
+    width: 80px;
+}

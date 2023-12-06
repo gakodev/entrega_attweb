@@ -34,9 +34,7 @@
         </div>
 
     <div id="mainDiv">
-        
         <div id="card_reservas">
-            
             <table id="mainTable" class="table">
 
                 <tbody>
@@ -63,12 +61,10 @@
                     </tr>
                     <tr>
                         <td>Data da reserva:</td>
-                        <td><input id="dataInput" type="text" name="data"></td>
+                        <td><input id="dataInput" type="text" name="data" maxlength="10"></td>
                     </tr>
-                </tbody>
-                           
+                </tbody>  
             </table>
-            
         </div>
         <button id="button1">Reservar</button> 
         
@@ -88,12 +84,35 @@
     <script src='main.js'></script>
 
     <script src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js'></script>
+
     <script>
+
+    function validarDados() {
+
+        var nome = $("#nomeInput");
+        var telefone = $("#telefoneInput");
+        var email = $("#emailInput");
+        var cpf = $("#cpfInput");
+        var nPessoas = $("#nInput");
+        var dataReserva = $("#dataInput");
+
+        if(nome.val() === "" || telefone.val() === "" || email.val() === "" || cpf.val() === "" || nPessoas.val() === "" || dataReserva.val() === "") {
+            alert("Preencha todos os campos")
+            return false;
+        } else {$('#img1').attr("src", "../imgs/reserva_verde.png")} ; 
+    }
+
+    $('#button1').click(validarDados)
+    if (validarDados == true) 
     $(document).ready(function(){
         $('#button1').on('click',function(){
-            alert('vvxcv')
             $('#img1').attr("src", "../imgs/reserva_verde.png")
-        });
-    });
+                });
+            });
+        
+    
+    
+
     </script>
+    
 </html>
