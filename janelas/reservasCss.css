@@ -20,6 +20,7 @@
 #titulo {
 
     margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +31,6 @@
 
     justify-content: center;
     display: flex;
-    text-align: center;
 }
 
 header img {
@@ -86,7 +86,9 @@ li a:hover:not(.active){
 body {
 
     background-color:rgb(218, 72, 19);
-    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
 }
 
 #footer {
@@ -199,4 +201,28 @@ td {
     border-radius: 2vh;
     height: 30px;
     width: 80px;
+}
+
+#background {
+
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    border: solid;
+    border-radius: 3vh;
+    border-width: 2px;
+    height: 700px;
+    width: 600px;
+    background-image: url(../imgs/card_bg_alt.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    
+}
+
+#background_config {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
 }

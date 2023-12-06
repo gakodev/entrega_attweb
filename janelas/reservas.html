@@ -27,10 +27,13 @@
 
     <h2 id="titulo">Venha fazer sua reserva!</h2>
 
+    <div id="background_config">
+    <div id="background">
+
         <div id="subtitulo">
-    <div id="div_img">
+            <div id="div_img">
         <img id="img1" src="../imgs/reserva_alt.png" alt="">
-    </div>
+            </div>
         </div>
 
     <div id="mainDiv">
@@ -66,10 +69,10 @@
                 </tbody>  
             </table>
         </div>
-        <button id="button1">Reservar</button> 
-        
+            <button id="button1">Reservar</button> 
+        </div>
     </div>
-    
+</div>
 
     <footer id="footer">
         <div id = "contato">
@@ -107,6 +110,7 @@
     $(document).ready(function(){
         $('#button1').on('click',function(){
             $('#img1').attr("src", "../imgs/reserva_verde.png")
+            $('#background_config').prepend("<h2>Reserva concluída! NÃO repita a opetação.")
                 });
             });
         
