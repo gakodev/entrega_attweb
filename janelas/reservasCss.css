@@ -210,7 +210,7 @@ td {
     display: flex;
     border: solid;
     border-radius: 3vh;
-    border-width: 2px;
+    border-width: 2pxgit;
     height: 700px;
     width: 600px;
     background-image: url(../imgs/card_bg_alt.jpg);
